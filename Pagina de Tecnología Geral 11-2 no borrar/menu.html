@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+
+
+ <!--Vincular el archivo CSS externo-->
+
+ <link rel="stylesheet"
+ href="style.css">
+
+
+ <!-- Conectar la librería de EmailJS y a JavaScript-->
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<!--ENCABEZADO-->
+<header class="encabezado">
+
+    <!-- BOTÓN DE LA BARRA LATERAL -->
+
+<button class="boton-lateral" onclick="abrirBarra()" title="Abrir menu">
+    ☰
+</button>
+
+
+ <!--LOGO-->
+    <div class="logo">
+        <span class="logo-icon"><img src="Imagenes/WhatsApp Image 2026-10-05 at 2.53.28 PM.jpeg" alt="Logo de Orix Oasis">
+        </span>
+
+        <div>
+        <h1>ORIX OASIS</h1>
+        </div>
+
+    </div>
+
+ <!-- MENÚ -->
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="#">Reservas</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Bolsita Contenta</a>
+    </nav>
+
+ <!-- ACCIONES -->
+ <div class="acciones">
+
+ <!-- BUSCADOR -->
+  <div class="buscador">
+
+   <span>
+    <img src="Imagenes/81-814194_icono-de-buscador-png-transparent-png.png" alt="Buscar">
+   </span>
+
+   <input type="text" placeholder="Buscar...">
+  </div>
+
+
+ <!-- CARRITO -->
+  <button class="carrito" title="Carrito de compras">
+    <img src="Imagenes/images.png"
+    alt="carrito de compras">
+  </button>
+
+ </div>
+
+</header>
+
+
+<!--CONTENIDO PRINCIPAL-->
+
+<main class="pagina-menu">
+
+
+    <!--TITULO DEL MENU-->
+
+    <section class="encabezado-menu">
+
+        <span class="etiqueta-menu">
+            ✦ NUESTRA CARTA ✦
+        </span>
+
+        <h2>
+           ✦ MENÚ ✦
+        </h2>
+
+        <p>
+            Descubre nuestros sabores y disfruta
+            de una experiencia diferente.
+        </p>
+
+    </section>
+
+    <!--12 PRODUCTOS MENU-->
+
+    <section class="productos-menu">
+
+
+     <!-- PRODUCTO 1 -->
+
+        <article 
+         class="tarjeta-producto "
+         data-idioma="عرايس"
+         data-ingredientes="Carne de res|Pan árabe|Cebolla|Ajo|Perejil|Especias árabes|Sal|Pimienta"
+         >
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 1 -->
+            <img
+                src="Imagenes/images.jpg"
+                alt="Arayes">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    ARAYES
+                </h3>
+
+                <p>
+                 Deliciosos panes rellenos de carne
+                 sazonada y especias.
+                </p>
+
+                <span class="precio-producto">
+                    $22.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 2 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="تبولة "
+         data-ingredientes="Perejil fresco|Hierbabuena|Cebolla|Trigo bulgur|Tomates rojos|Aceite de oliva|Cebolleta|Pimienta|Sal">
+
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 2 -->
+            <img
+                src="Imagenes/images (1).jpg"
+                alt="Tabulé">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    TABULÉ
+                </h3>
+
+                <p>
+                 Una ensalada súper fresca y picada finamente,
+                 donde resalta el verde brillante del perejil
+                 junto al trigo burgol, tomate y un toque
+                 cítrico de limón.
+                </p>
+
+                <span class="precio-producto">
+                    $13.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+     <!-- PRODUCTO 3 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="كبة"
+         data-ingredientes="Tigo burgol|Carne molida|Cebolla|Hierbabuena o menta|especias|Frutos secos|Ajo|Aceite|Sal">
+
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 3 -->
+            <img
+                src="Imagenes/images (2).jpg"
+                alt="Kibbeh">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    KIBBEH
+                </h3>
+
+                <p>
+                 Crujientes croquetas alargadas con
+                 una masa de trigo burgol y carne,
+                 rellenas de un jugoso sofrito de 
+                 carne molida sazonada, especias y 
+                 piñones tostados.
+                </p>
+
+                <span class="precio-producto">
+                    $18.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+     <!-- PRODUCTO 4 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="شاورما"
+         data-ingredientes="Pan arabe|Carne|Cebolla|Ajo|Tomate|Lechuga|Perejil|Aceite de oliva|Sal|Pimenton">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 4 -->
+            <img
+                src="Imagenes/shawarma image.jpg"
+                alt="Shawarma">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    SHAWARMA
+                </h3>
+
+                <p>
+                 Jugosas tiras de carne marinada y especiada,
+                 cocinadas a fuego lento y envueltas en pan tierno
+                 con vegetales frescos y salsas.
+                </p>
+
+                <span class="precio-producto">
+                    $22.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 5 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="فلافل "
+         data-ingredientes="Garbanzos secos|Cilantro|Cebolla|Comino molido|Harina|Pimienta|Ajo|Aceite de oliva|Sal">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 5 -->
+            <img
+                src="Imagenes/falafel image.jpg"
+                alt="Falafel">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    FALAFEL
+                </h3>
+
+                <p>
+                 Crujientes croquetas de garbanzo y hierbas 
+                 aromáticas, doradas por fuera y esponjosas 
+                 por dentro.
+                </p>
+
+                <span class="precio-producto">
+                    $15.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 6 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="مناقيش"
+         data-ingredientes="Harina de trigo|Levadura seca|Agua tibia|Azúcar|Queso|Aceite de oliva|Sal">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 6 -->
+            <img
+                src="Imagenes/manakish image.jpg"
+                alt="Manakish">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    MANAKISH
+                </h3>
+
+                <p>
+                 Crujiente pan plano horneado, 
+                 tradicionalmente untado con una aromática e
+                 intensa mezcla de aceite de oliva y especias za'atar.
+                </p>
+
+                <span class="precio-producto">
+                    $14.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 7 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="حُمُّص"
+         data-ingredientes="Garbanzos cocidos|Tahini|Limón|Agua fría|Comino molido|Pimenton molido|Ajo|Aceite|Sal">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 7 -->
+            <img
+                src="Imagenes/hummus image.jpg"
+                alt="Hummus">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    HUMMUS
+                </h3>
+
+                <p>
+                 Crema ultra suave y sedosa de garbanzos y
+                 pasta de sésamo, coronada con un buen chorro
+                 de aceite de oliva.
+                </p>
+
+                <span class="precio-producto">
+                    $16.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 8 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="بَابَا غَنُوش"
+         data-ingredientes="Berenjenas grandes|Tahini|Limón|Comino molido|Pimienta|Pimenton dulce|Granada|Aceite de oliva|Sal">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 8 -->
+            <img
+                src="Imagenes/baba ganoush image.jpg"
+                alt="Baba Ganoush">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    BABA GANOUSH
+                </h3>
+
+                <p>
+                 Cremosa pasta de berenjena asada 
+                 con un irresistible, profundo y 
+                 ahumado toque de leña.
+                </p>
+
+                <span class="precio-producto">
+                    $15.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 9 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="بَابَا غَنُوش"
+         data-ingredientes="Frutos secos|1 paquete de masa filo|Mantequilla derretida|Canela molida|Limón|Aceite|Sal">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 9 -->
+            <img
+                src="Imagenes/baklava image.jpg"
+                alt="Baklava">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    BAKLAVA
+                </h3>
+
+                <p>
+                 Crujiente milhojas de masa filo y 
+                 frutos secos, bañado en un dulce almíbar
+                 perfumado con agua de azahar o rosas.
+                </p>
+
+                <span class="precio-producto">
+                    $12.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 10 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="جلاب"
+         data-ingredientes="Jarabe|Agua fría|Agua de rosas|Hielo picado|Piñones crudos|Pasas rubias">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 10 -->
+            <img
+                src="Imagenes/jallab image.jpg"
+                alt="Jallab">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    JALLAB
+                </h3>
+
+                <p>
+                 Refrescante y aromática bebida de dátiles
+                 y uva, servida bien fría con el toque 
+                 crocante de piñones y pasas.
+                </p>
+
+                <span class="precio-producto">
+                    $12.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 11 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="ليمون نعناع"
+         data-ingredientes="Limones|Menta fresca|Azúcar o sirope|Agua fría|Hielo">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 11 -->
+            <img
+                src="Imagenes/limonada arabe image.jpg"
+                alt="Limonada arabe con menta">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    LIMONADA ÁRABE CON MENTA
+                </h3>
+
+                <p>
+                 Bebida cítrica intensamente fresca y
+                 granizada, con el perfume vibrante 
+                 de la menta fresca.
+                </p>
+
+                <span class="precio-producto">
+                    $5.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+     <!-- PRODUCTO 12 -->
+
+        <article class="tarjeta-producto"
+         data-idioma="شاي عربي"
+         data-ingredientes="Té negro|Menta fresca|Agua|Azúcar|Especias">
+
+            <button class="favorito"
+             title="Agregar a favoritos">
+
+             ♡
+
+            </button>
+
+         <!-- IMAGEN DEL PRODUCTO 12 -->
+            <img
+                src="Imagenes/te arabe image.jpg"
+                alt="Té arabe">
+
+
+            <div class="producto-info">
+
+                <h3>
+                    TÉ ÁRABE
+                </h3>
+
+                <p>
+                 Reconfortante e intenso té negro
+                 infusionado con menta fresca, 
+                 tradicionalmente servido caliente
+                 y bien dulce.
+                </p>
+
+                <span class="precio-producto">
+                    $4.000
+                </span>
+
+
+                <div class="acciones-producto">
+
+                    <button class="ver-producto">
+                        Ver detalles
+                    </button>
+
+                    <button class="agregar-carrito">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+    
+
+ <!--MODO ENTRETENIMIENTO-->
+
+ <section class="entretenimiento">
+
+    <div class="encabezado-entretenimiento">
+
+        <span class="etiqueta-menu">
+            ✦ MODO ENTRETENIMIENTO ✦
+        </span>
+
+        <h2>Mientras disfrutas tu comida, puedes tejer</h2>
+
+        <p>
+            Catalogo de amigurumis
+        </p>
+    </div>
+
+    <div class="amigurumis-menu">
+
+
+    <!--CROCHET 1-->
+        <article class="tarjeta-amigurumi">
+            <button class="favorito-amigurumi">
+             ♡
+            </button>
+
+            <!--IMAGEN CROCHET 1-->
+
+            <div class="imagen-amigurumi">
+                <img src="Imagenes/camello crochet image.jpg" alt="Crochet 1">
+            </div>
+
+            <div class="info-amigurumi">
+                <h3>Camello crochet</h3>
+                <p>Un pequeño compañero para llevar contigo.</p>
+
+                <span class="precio-amigurumi">$25.000</span>
+
+                <div class="acciones-amigurumi">
+                    <button>Ver detalles</button>
+                    <button>+</button>
+                </div>
+            </div>
+        </article>
+
+     <!--CROCHET 2-->
+        <article class="tarjeta-amigurumi">
+            <button class="favorito-amigurumi">
+             ♡
+            </button>
+
+            <!--IMAGEN CROCHET 2-->
+
+            <div class="imagen-amigurumi">
+                <img src="Imagenes/camello crochet image.jpg" alt="Crochet 1">
+            </div>
+
+            <div class="info-amigurumi">
+                <h3>Camello crochet</h3>
+                <p>Un pequeño compañero para llevar contigo.</p>
+
+                <span class="precio-amigurumi">$25.000</span>
+
+                <div class="acciones-amigurumi">
+                    <button>Ver detalles</button>
+                    <button>+</button>
+                </div>
+            </div>
+        </article>
+
+     <!--CROCHET 3-->
+        <article class="tarjeta-amigurumi">
+            <button class="favorito-amigurumi">
+             ♡
+            </button>
+
+            <!--IMAGEN CROCHET 3-->
+
+            <div class="imagen-amigurumi">
+                <img src="Imagenes/camello crochet image.jpg" alt="Crochet 1">
+            </div>
+
+            <div class="info-amigurumi">
+                <h3>Camello crochet</h3>
+                <p>Un pequeño compañero para llevar contigo.</p>
+
+                <span class="precio-amigurumi">$25.000</span>
+
+                <div class="acciones-amigurumi">
+                    <button>Ver detalles</button>
+                    <button>+</button>
+                </div>
+            </div>
+        </article>
+
+     <!--CROCHET 4-->
+        <article class="tarjeta-amigurumi">
+            <button class="favorito-amigurumi">
+             ♡
+            </button>
+
+            <!--IMAGEN CROCHET 4-->
+
+            <div class="imagen-amigurumi">
+                <img src="Imagenes/camello crochet image.jpg" alt="Crochet 1">
+            </div>
+
+            <div class="info-amigurumi">
+                <h3>Camello crochet</h3>
+                <p>Un pequeño compañero para llevar contigo.</p>
+
+                <span class="precio-amigurumi">$25.000</span>
+
+                <div class="acciones-amigurumi">
+                    <button>Ver detalles</button>
+                    <button>+</button>
+                </div>
+            </div>
+        </article>
+
+     <!--CROCHET 5-->
+        <article class="tarjeta-amigurumi">
+            <button class="favorito-amigurumi">
+             ♡
+            </button>
+
+            <!--IMAGEN CROCHET 5-->
+
+            <div class="imagen-amigurumi">
+                <img src="Imagenes/camello crochet image.jpg" alt="Crochet 1">
+            </div>
+
+            <div class="info-amigurumi">
+                <h3>Camello crochet</h3>
+                <p>Un pequeño compañero para llevar contigo.</p>
+
+                <span class="precio-amigurumi">$25.000</span>
+
+                <div class="acciones-amigurumi">
+                    <button>Ver detalles</button>
+                    <button>+</button>
+                </div>
+            </div>
+        </article>
+
+     <!--CROCHET 6-->
+        <article class="tarjeta-amigurumi">
+            <button class="favorito-amigurumi">
+             ♡
+            </button>
+
+            <!--IMAGEN CROCHET 6-->
+
+            <div class="imagen-amigurumi">
+                <img src="Imagenes/camello crochet image.jpg" alt="Crochet 1">
+            </div>
+
+            <div class="info-amigurumi">
+                <h3>Camello crochet</h3>
+                <p>Un pequeño compañero para llevar contigo.</p>
+
+                <span class="precio-amigurumi">$25.000</span>
+
+                <div class="acciones-amigurumi">
+                    <button>Ver detalles</button>
+                    <button>+</button>
+                </div>
+            </div>
+        </article>
+    
+ </section>
+</main>
+
+
+
+
+<!--MODAL PARA VER LOS DETALLES DE CADA PLATO-->
+
+<div class="modal-producto" id="modalProducto">
+
+    <div class="contenido-modal">
+
+
+     <!--BOTÓN PARA CERRAR-->
+
+        <button class="cerrar-modal" id="cerrarModal">
+            ×
+        </button>
+
+
+     <!--LADO IZQUIERDO IMAGEN-->
+
+        <div class="lado-imagen-modal">
+
+            <div class="marco-imagen-modal">
+                <img
+                    id="imagenModal"
+                    src=""
+                    alt=""
+                >
+            </div>
+
+            <div class="nombre-imagen-modal">
+                <h3 id="nombreImagenModal"></h3>
+                <span id="idiomaModal"></span>
+            </div>
+
+        </div>
+
+
+     <!--INFORMACION DE CADA PLATO LADO DERECHO-->
+
+        <div class="informacion-modal">
+
+            <span class="etiqueta-modal">
+                INFORMACIÓN DEL PRODUCTO
+            </span>
+
+         <!--NOMBRE-->
+
+            <h2 id="nombreModal"></h2>
+
+
+         <!--DESCRIPCIÓN-->
+
+            <div class="descripcion-modal">
+                <p id="descripcionModal"></p>
+            </div>
+
+
+         <!--LÍNEA DECORATIVA-->
+
+            <div class="linea-modal"></div>
+
+
+
+         <!-- INGREDIENTES -->
+
+            <div class="ingredientes-modal">
+
+                <h3>Ingredientes</h3>
+
+                <ul id="ingredientesModal"></ul>
+
+            </div>
+
+
+         <!--PRECIO-->
+
+            <div class="precio-modal" id="precioModal"></div>
+
+
+
+         <!--BOTONES DEBAJO DEL PRECIO-->
+
+            <div class="acciones-modal">
+
+                <button
+                    class="boton-carrito-modal"
+                    id="botonCarritoModal"
+                    type="button">
+                    Añadir al carrito
+                </button>
+
+                <button
+                    class="boton-comprar-modal"
+                    id="botonComprarModal"
+                    type="button">
+                    Comprar ahora
+                </button>
+
+            </div>
+
+        </div>
+        
+
+    </div>
+   
+
+</div>
+
+
+
+
+
+<!--BARRA LATERAL-->
+
+<aside class="barra-lateral" id="barraLateral">
+
+    <button class="cerrar-barra" onclick="cerrarBarra()">
+        ×
+    </button>
+
+    <h2>ORIX OASIS</h2>
+
+    <p class="texto-lateral">
+        Explora nuestro oasis de sabores.
+    </p>
+
+    <div class="linea-dorada"></div>
+
+    <a href="index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="#">Reservas</a>
+    <a href="#">Nosotros</a>
+    <a href="#">Contacto</a>
+
+    <div class="lateral-final">
+        <p>✦ Donde el sabor se encuentra con la creatividad ✦</p>
+    </div>
+
+</aside>
+
+
+<!-- FONDO OSCURO CUANDO SE ABRE -->
+<div class="fondo-lateral" id="fondoLateral" onclick="cerrarBarra()"></div>
+
+
+
+
+<!-- VENTANA DEL CARRITO -->
+<div class="modal-carrito" id="modalCarrito">
+    <div class="contenido-carrito">
+
+        <button
+            type="button"
+            class="cerrar-carrito"
+            id="cerrarCarrito"
+            aria-label="Cerrar carrito"
+        >×</button>
+
+        <span class="etiqueta-modal">ORIX OASIS</span>
+
+        <h2>Tu carrito</h2>
+
+        <div id="listaCarrito">
+            <p class="carrito-vacio">Tu carrito está vacío.</p>
+        </div>
+
+        <div class="total-carrito">
+            <span>Total</span>
+            <strong id="totalCarrito">$0</strong>
+        </div>
+
+        <button
+            type="button"
+            class="boton-comprar-modal"
+            id="finalizarCompra"
+        >
+            Continuar con el pedido
+        </button>
+
+    </div>
+</div>
+
+    
+</body>
+</html>

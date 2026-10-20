@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORIX OASIS</title>
+
+<!--Vincular el archivo CSS externo-->
+
+<link rel="stylesheet"
+href="style.css">
+
+
+<!-- Conectar la librería de EmailJS y a JavaScript-->
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js" defer></script>
+
+
+
+</head>
+
+<body>
+
+<!--ENCABEZADO-->
+<header class="encabezado">
+
+    <!-- BOTÓN DE LA BARRA LATERAL -->
+
+<button class="boton-lateral" onclick="abrirBarra()" title="Abrir menu">
+    ☰
+</button>
+
+
+ <!--LOGO-->
+    <div class="logo">
+        <span class="logo-icon"><img src="Imagenes/WhatsApp Image 2026-10-05 at 2.53.28 PM.jpeg" alt="Logo de Orix Oasis">
+        </span>
+
+        <div>
+        <h1>ORIX OASIS</h1>s
+        </div>
+
+    </div>
+
+ <!-- MENÚ -->
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="#">Reservas</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Bolsita Contenta</a>
+    </nav>
+
+ <!-- ACCIONES -->
+ <div class="acciones">
+
+ <!-- BUSCADOR -->
+  <div class="buscador">
+
+   <span>
+    <img src="Imagenes/81-814194_icono-de-buscador-png-transparent-png.png" alt="Buscar">
+   </span>
+
+   <input type="text" placeholder="Buscar...">
+  </div>
+
+ <!-- CARRITO -->
+  <button class="carrito" title="Carrito de compras">
+   <img src="Imagenes/images.png"
+   alt="carrito de compras">
+  </button>
+
+ </div>
+
+</header>
+
+
+
+<!-- BARRA LATERAL -->
+
+<aside class="barra-lateral" id="barraLateral">
+
+    <button class="cerrar-barra" onclick="cerrarBarra()">
+        ×
+    </button>
+
+    <h2>ORIX OASIS</h2>
+
+    <p class="texto-lateral">
+        Explora nuestro oasis de sabores.
+    </p>
+
+    <div class="linea-dorada"></div>
+
+    <a href="index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="#">Reservas</a>
+    <a href="#">Nosotros</a>
+    <a href="#">Contacto</a>
+
+    <div class="lateral-final">
+        <p>✦ Donde el sabor se encuentra con la creatividad ✦</p>
+    </div>
+
+</aside>
+
+
+<!-- FONDO OSCURO CUANDO SE ABRE -->
+<div class="fondo-lateral" id="fondoLateral" onclick="cerrarBarra()"></div>
+
+
+<!-- CONTENIDO PRINCIPAL -->
+<main>
+
+    <!-- SLIDER Y MASCOTA -->
+    <section class="inicio">
+
+    <!-- SLIDER DE PRODUCTOS -->
+    <div class="slider">
+
+    <!--PRODUCTO 1-->
+
+    <div class="slide activo">
+    <span class="etiqueta">✦ ESPECIAL DE LA CASA ✦</span>
+    <h2>Arayes</h2>
+
+    <img src="Imagenes/images.jpg" alt="Comida 1">
+
+    <p class="descripcion">
+    ESCRIBIR EL NOMBRE DEL PLATO NO C
+    </p>
+
+    <p class="precio">$20.000</p>
+
+    <button class="comprar">Comprar</button>
+    </div>
+
+
+    <!--PRODUCTO 2-->
+    
+    <div class="slide">
+    <span class="etiqueta">✦ ESPECIAL DE LA CASA ✦</span>
+    <h2>Tabulé</h2>
+
+    <img src="Imagenes/images (1).jpg" alt="Comida 2">
+
+    <p class="descripcion">
+    ESCRIBIR EL NOMBRE DEL PLATO NO C
+    </p>
+
+    <p class="precio">$30.000</p>
+
+    <button class="comprar">Comprar</button>
+    </div>
+
+
+    <!--PRODUCTO 3-->
+    
+    <div class="slide">
+    <span class="etiqueta">✦ ESPECIAL DE LA CASA ✦</span>
+    <h2>Kibbeh</h2>
+
+    <img src="Imagenes/images (2).jpg" alt="Comida 3">
+
+    <p class="descripcion">
+    ESCRIBIR EL NOMBRE DEL PLATO NO C
+    </p>
+
+    <p class="precio">$40.000</p>
+
+    <button class="comprar">Comprar</button>
+    </div>
+
+  <!--INDICADORES SLIDER-->
+    <div class="indicadores">
+    <span class="indicador activo"></span>
+    <span class="indicador"></span>
+    <span class="indicador"></span>
+</div>
+    
+ <!--FLECHA IZQUIERDA-->
+ <button class="flecha izquierda" onclick="cambiarSlide(-1)">
+    ‹
+ </button>
+
+ <!--FLECHA DERECHA-->
+ <button class="flecha derecha" onclick="cambiarSlide(1)">
+    ›
+ </button>
+ </div>
+
+
+ <!--MASCOTA-->
+ <div class="mascota">
+
+    <img src="Imagenes/mascota prueba fake.jpg" alt="mascota de la empresa lado derecho">
+    <div class="dialogo">
+        que es esto...
+    </div>
+ 
+ </div>
+
+ </section>
+
+</main>
+
+<!-- PIE DE PÁGINA -->
+<footer class="footer">
+
+    <div class="footer-contenido">
+
+        <div class="footer-marca">
+            <h2>ORIX OASIS</h2>
+
+            <p>
+             "Donde el sabor se encuentra con la creatividad"
+            </p>
+        </div>
+
+
+        <div class="footer-seccion">
+
+            <h3>Explora</h3>
+
+            <a href="menu.html">Menú</a>
+            <a href="#">Reservas</a>
+            <a href="#">Nosotros</a>
+
+        </div>
+
+
+        <div class="footer-seccion">
+
+            <h3>Contacto</h3>
+
+            <p>📍 Nuestra ubicación</p>
+            <p>☎ +57 XXX XXX XXXX</p>
+            <p>✉ contacto@orixoasis.com</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-final">
+
+        <p>
+            © 2026 ORIX OASIS · Todos los derechos reservados
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- VENTANA DEL CARRITO -->
+
+<div class="modal-carrito" id="modalCarrito">
+
+    <div class="contenido-carrito">
+
+        <button
+            type="button"
+            class="cerrar-carrito"
+            id="cerrarCarrito"
+            aria-label="Cerrar carrito">
+            ×
+        </button>
+
+        <span class="etiqueta-modal">ORIX OASIS</span>
+
+        <h2>Tu carrito</h2>
+
+        <div id="listaCarrito">
+            <p class="carrito-vacio">
+                Tu carrito está vacío.
+            </p>
+        </div>
+
+        <div class="total-carrito">
+            <span>Total</span>
+            <strong id="totalCarrito">$0</strong>
+        </div>
+
+        <button
+            type="button"
+            class="boton-comprar-modal"
+            id="finalizarCompra">
+            Continuar con el pedido
+        </button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
